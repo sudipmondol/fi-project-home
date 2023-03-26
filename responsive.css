@@ -1,0 +1,79 @@
+@media only screen and (min-width:200px) and (max-width:767px){
+
+    .header-primary-top{
+        height: 80px;
+    }
+
+    .header-p-part1 {
+        margin-top: 12px;
+        font-size: 18px;
+        /* text-align: center; */
+        }
+
+    .hpp1-text1{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .h-icon{
+        text-align: center;
+        padding-right: 0px;
+    }
+    
+    .header-secondary-top{
+        padding-top: 10px;
+    }
+     
+    .igm-section{
+        margin-left: 0px;
+    }
+    
+    .menu-pages{
+        margin-left: 0px;
+    }
+    
+    .navbar-expand-md .navbar-nav {
+        flex-direction: column;
+        padding-left: 0px;
+      }
+
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        margin-left: auto ;
+        padding-left: 0 auto;
+    }
+
+    
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        padding-left: -1px;
+      }
+    
+      .primary-button-box {
+        margin-top: 60px;
+      }
+
+      .pri-sec-details {
+        margin-top: 30px;
+      }
+  
+      .justify-content-between {
+        justify-content: space-evenly !important;
+      }
+   
+      .card-box1 {
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+      }
+
+    /* .sec-last-img{
+        margin-top: 15px;
+    }
+    .mobile-row{
+        margin: auto;
+    } */
+
+    /* .ma{
+        padding-left: 16px;
+      } */
+    }
