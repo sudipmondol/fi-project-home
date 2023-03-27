@@ -49,7 +49,9 @@
       } */
     
       .primary-button-box {
-        margin-top: 60px;
+    
+          margin-top: 270px;
+        
       }
 
       .pri-sec-details {
@@ -68,6 +70,22 @@
       .card-box {
         margin-top: 116px;
       }
+      .form-box{
+        width: 501px;
+        height: 488px;
+        background-image: url(images/section-images/section2/header-tablebox.png);
+      }
+      .advnanced{
+        margin-top: 0px !important;
+
+      }
+
+      .form-page{
+        position: absolute;
+        right: 0px;
+        bottom: -300px;
+        z-index: 15;
+    }
 
   
     }
