@@ -59,12 +59,6 @@ body{
 .h-icon-2{
         
 }
-/* .h-icon-2:active{
-    color: #6a6a6a; 
-} */
-/* .h-icon-ig:hover{
-    background-color: #161616;
-} */   
 
 /* HEADER PRIMARY TOP END */
 
@@ -76,11 +70,10 @@ body{
     max-height: 855px;
     background-image:url(images/header-images/logo/headerbg.jpg) ;
     padding-top: 40px;
-    /* background-attachment: fixed; */
     background-size: center center;
     background-size: cover;
     position: relative;
-    
+
 }
 .form-page{
     position: absolute;
@@ -139,9 +132,10 @@ body{
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
-        /*     
-            padding-left:0px; */
+            
+    padding-left:0px; 
  }
+
 /* HEADER SECONDARY END */
 
 
@@ -158,7 +152,7 @@ body{
 }
 
 .primary-button-box{
-    /* margin-top: 25px; */
+
     margin-top: 30px;
 }
 
@@ -220,7 +214,7 @@ body{
     margin-top: 130px;
 }
 .card-box1{
-    /* margin-top: 65px; */
+   
     text-align: center;
 }
 .card{
@@ -229,9 +223,6 @@ body{
     height: 156px;
     text-align: center;
     align-items: center;
-    /* background-attachment: fixed;
-    background-position: center center;
-    background-size: cover; */
     margin-bottom: 15px;
     margin-right: 15px;
     border: none;
@@ -239,9 +230,7 @@ body{
 }
 .card h5 {
     font-size: 35pt;
-  
     margin-top: 30px;
-    /* margin-bottom: 0px; */
  
 }
 .card p{

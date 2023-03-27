@@ -6,29 +6,41 @@
 
     .header-p-part1 {
         margin-top: 12px;
+        margin-bottom: 10px;
         font-size: 18px;
-        /* text-align: center; */
+        text-align: center;
         }
 
     .hpp1-text1{
-      margin: 0 auto;
-        /* margin-left: 0px; */
+      margin: auto;
+        margin-left: 0px;
         text-align: center;
     }
 
     .h-icon{
         text-align: center;
-        /* padding-right: 0px; */
+        padding-right: 0px;
     }
+    .header-secondary-top{
+      /* height: 100vh; */
+      max-height: 855px;
+      background-image:url(images/header-images/logo/headerbg.jpg) ;
+      padding-top: 40px;
+      background-size: center center;
+      background-size: cover;
+      position: relative;
+      
+      /* background-attachment: fixed; */
+  }
     
     .header-secondary-top{
         padding-top: 10px;
     }
     .header-p-part2{
-      /* margin-top: 0px; */
+      margin-top: 0px;
     }
     .igm-section{
-        margin-left: 0px;
+        margin-left: 10px;
     }
     
     .menu-pages{
@@ -43,22 +55,23 @@
 
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         margin-left: auto ;
-        /* padding-left: 12px; */
+        padding-left: 12px;
     }
 
-    
+   
     /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         padding-left: -1px;
-      }
-     */
+      } */
+     
       .primary-button-box {
     
-          margin-top: 420px;
+          margin-top: 400px;
         
       }
 
       .pri-sec-details {
         margin-top: 30px;
+        text-align: center;
       }
   
       .justify-content-between {
@@ -67,13 +80,14 @@
    
       .card-box1 {
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 70px;
         text-align: center;
       }
       .card-box {
         margin-top: 116px;
       }
       .form-box{
+       
         width: 501px;
         height: 488px;
         background-image: url(images/section-images/section2/header-tablebox.png);
@@ -85,7 +99,7 @@
 
       .form-page{
         position: absolute;
-        right: 0px;
+        left: 0px;
         bottom: -470px;
         z-index: 15;
     }
