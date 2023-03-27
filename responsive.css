@@ -65,7 +65,7 @@
      
       .primary-button-box {
     
-          margin-top: 400px;
+          margin-top: 440px;
         
       }
 
@@ -119,6 +119,14 @@
   margin-left:0px
    calc(var(--bs-gutter-x) * -.5);
 }
-
+/* .igm-section1{
+  color: white !important;
+  z-index: 25;
+} */
+/* .igm-section2{
+  color: white;
+  opacity: 1.0;
+  z-index: 25;
+} */
 
 }
