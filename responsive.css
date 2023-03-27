@@ -1,7 +1,7 @@
 @media only screen and (min-width:200px) and (max-width:767px){
 
     .header-primary-top{
-        height: 80px;
+        height: 100px;
     }
 
     .header-p-part1 {
@@ -11,19 +11,22 @@
         }
 
     .hpp1-text1{
-        margin-left: 0px;
+      margin: 0 auto;
+        /* margin-left: 0px; */
         text-align: center;
     }
 
     .h-icon{
         text-align: center;
-        padding-right: 0px;
+        /* padding-right: 0px; */
     }
     
     .header-secondary-top{
         padding-top: 10px;
     }
-     
+    .header-p-part2{
+      /* margin-top: 0px; */
+    }
     .igm-section{
         margin-left: 0px;
     }
@@ -40,17 +43,17 @@
 
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         margin-left: auto ;
-        padding-left: 0 auto;
+        /* padding-left: 12px; */
     }
 
     
     /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         padding-left: -1px;
-      } */
-    
+      }
+     */
       .primary-button-box {
     
-          margin-top: 270px;
+          margin-top: 420px;
         
       }
 
@@ -83,9 +86,25 @@
       .form-page{
         position: absolute;
         right: 0px;
-        bottom: -300px;
+        bottom: -470px;
         z-index: 15;
     }
 
-  
-    }
+    .mt-2 {
+      margin-top: 0rem !important;
+      margin-left: 16px;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left:0px
+   calc(var(--bs-gutter-x) * -.5);
+}
+
+
+}
