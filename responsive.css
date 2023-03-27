@@ -44,9 +44,9 @@
     }
 
     
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         padding-left: -1px;
-      }
+      } */
     
       .primary-button-box {
         margin-top: 60px;
@@ -65,15 +65,9 @@
         margin-top: 0px;
         text-align: center;
       }
+      .card-box {
+        margin-top: 116px;
+      }
 
-    /* .sec-last-img{
-        margin-top: 15px;
-    }
-    .mobile-row{
-        margin: auto;
-    } */
-
-    /* .ma{
-        padding-left: 16px;
-      } */
+  
     }
